@@ -23,6 +23,7 @@ box-sizing: border-box;
     margin: 100px auto 20px;
     padding: 40px 30px 70px;
     border-radius: 10px;
+    
 }
 
 .todo-app h2{
@@ -33,6 +34,7 @@ box-sizing: border-box;
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+
 }
 
 .todo-app h2 img{
@@ -143,3 +145,31 @@ ul li span:hover{
     text-decoration: underline; /* Underline on hover */
 }
   
+
+
+/* Responsive design for mobile screens */
+@media (max-width: 576px) {
+    .row {
+        flex-direction: column; /* Stack input and button vertically */
+        align-items: center; /* Center content in the column */
+        padding: 0;
+    }
+
+    input {
+        margin: 10px; /* Space between input and button */
+        text-align: center;
+    }
+
+    button {
+        width: 100%; /* Set button width to fit its content */
+        padding: 16px 50px; /* Adjust button padding */ 
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    .su {
+         
+        bottom: 80px;        /* Keep it 10px from the bottom */
+        
+    }
+    
+}
