@@ -11,9 +11,10 @@ box-sizing: border-box;
     background : linear-gradient(135deg, #153677, #4e085f);
     width: 100%;
     min-height: 100vh;
-    padding:10px;
-    position: absolute;
-    z-index: 80;
+    padding:20px;
+    position: relative;
+    border: 1px solid red;
+
 
 }
 
@@ -21,9 +22,10 @@ box-sizing: border-box;
     width: 100%;
     max-width: 540px;
     background: white;
-    margin: 100px auto 20px;
+    margin: 100px auto 30px;
     padding: 40px 30px 70px;
     border-radius: 10px;
+    border: 1px solid red;
     
 }
 
@@ -124,12 +126,13 @@ ul li span:hover{
 
 /* Styling for the footer link and heart */
 .su {
-    position: fixed;  /* Fix it at the bottom */
-    bottom: 50px;        /* Keep it 10px from the bottom */
+    position: absolute;  /* Fix it at the bottom */
+    bottom: 0px;        /* Keep it 10px from the bottom */
     width: 98%;         /* Full width of the page */
     display: flex;       /* Use flex to center the content */
     justify-content: center;  /* Center horizontally */
     text-align: center;  /* Ensure text is centered */
+    margin-bottom: 10px;
 }
 
 .custom-link {
@@ -168,7 +171,7 @@ ul li span:hover{
     }
 
     .su {
-        position: fixed;  /* Fix it at the bottom */
+        position: absolute;  /* Fix it at the bottom */
         bottom: 5px;        /* Keep it 10px from the bottom */
         
     }
