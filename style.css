@@ -168,7 +168,7 @@ ul li span:hover{
 
     .su {
         position: fixed;  /* Fix it at the bottom */
-        bottom: 80px;        /* Keep it 10px from the bottom */
+        bottom: 20px;        /* Keep it 10px from the bottom */
         
     }
     
