@@ -172,7 +172,11 @@
             padding-left: 10px;
             padding-right: 10px;
             }
-        
+        .todo-app h2{
+            font-size: 30px;
+             }
+            
+
         .row {
             flex-direction: column; /* Stack input and button vertically */
             align-items: center; /* Center content in the column */
